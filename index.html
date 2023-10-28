@@ -15,6 +15,12 @@
     <div id="app">
         <h1>{{ message }}</h1>
         <input v-model='message' type="text">
+        <div>
+            <img v-bind:src="image" alt="">
+            <br>
+            <input v-model='image' type="text">
+        </div>
+        
     </div>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
